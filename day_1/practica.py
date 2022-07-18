@@ -1,6 +1,3 @@
-from os import PRIO_PGRP
-
-
 DATA = [
     {
         'name': 'Carlos',
@@ -115,18 +112,3 @@ def run():
 if __name__ == '__main__':
     run()
     
-    # [{'name': 'Carlos', 'age': 72, 'organization': 'Ciancoders', 'position': 'Technical Leader', 'language': 'python'}, 
-    #  {'name': 'Karo', 'age': 23, 'organization': 'Everis', 'position': 'Backend Developer', 'language': 'python'}, 
-    #  {'name': 'Pablo', 'age': 32, 'organization': 'Master', 'position': 'Human Resources Manager', 'language': 'python'},
-    #  {'name': 'Lorena', 'age': 56, 'organization': 'Python Organization', 'position': 'Language Maker', 'language': 'python'}]
-    
-    # [{'name': 'Carlos', 'age': 72, 'organization': 'Ciancoders', 'position': 'Technical Leader', 'language': 'python'}, 
-    #  {'name': 'Karo', 'age': 23, 'organization': 'Everis', 'position': 'Backend Developer', 'language': 'python'}, 
-    #  {'name': 'Pablo', 'age': 32, 'organization': 'Master', 'position': 'Human Resources Manager', 'language': 'python'}, 
-    #  {'name': 'Lorena', 'age': 56, 'organization': 'Python Organization', 'position': 'Language Maker', 'language': 'python'}]
-    
-    [{'name': 'Carlos', 'age': 72, 'organization': 'Ciancoders', 'position': 'Technical Leader', 'language': 'python'}, 
-     {'name': 'Héctor', 'age': 19, 'organization': 'Ciancoders', 'position': 'Associate', 'language': 'ruby'}, 
-     {'name': 'Gabriel', 'age': 20, 'organization': 'Ciancoders', 'position': 'Associate', 'language': 'javascript'}, 
-     {'name': 'Isabella', 'age': 30, 'organization': 'Ciancoders', 'position': 'QA Manager', 'language': 'java'}]
-
