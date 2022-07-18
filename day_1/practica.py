@@ -77,35 +77,41 @@ def run():
   # 1. obtener todos los desarrolladores de python
     
   python_filter = list (filter(lambda x: x['language'] == 'python', DATA))
+  print('DESARROLLADORES DE PYTHON')
   print (python_filter)
   
   
   # 2. obtener todos los desarrolladores de python que tienen una edad mayor a 20
   
   python_age_filter = list (filter(lambda x: x['language'] == 'python' and x['age'] > 20, DATA))
+  print('DESARROLLADORES DE PYTHON MAYORES A 20 AÑOS')
   print(python_age_filter)
   
   
   # 3. obtener todos los trabajadores de ciancoders 
   
   ciancoders = list (filter(lambda x: x['organization'] == 'Ciancoders', DATA))
+  print('TRABAJADORES DE CIANCODERS')
   print(ciancoders)
   
   
   # 4. obtener todos los trabajadores de ciancoders que tienen una edad mayor a 30
   
   ciancoders_age = list (filter(lambda x: x['organization'] == 'Ciancoders' and x['age'] > 30, DATA))
+  print('TRABAJADORES DE CIANCODERS MAYORES A 30 AÑOS')
   print(ciancoders_age)
   
   
   # 5. obtener todos los trabajadores de mayores de 18 años
   
   age_18 = list (filter(lambda x: x['age'] > 18, DATA))
+  print('TRABAJADORES MAYORES A 18 AÑOS')
   print(age_18)
   
   
   # 6. obtener todos los trabajadores de mayores a 70 años
   age_70 = list (filter(lambda x: x['age'] > 70, DATA))
+  print('TRABAJADORES MAYORES A 70 AÑOS')
   print(age_70)
   # pass
 
